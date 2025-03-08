@@ -111,7 +111,7 @@ const FlipBook = () => {
       <div className="flipbook-container mt-3" style={{ transform: `scale(${zoom})` }}>
         <HTMLFlipBook
           width={350}
-          height={700}
+          height={650}
           showCover={false}
           flippingTime={1000}
           drawShadow={false}
