@@ -1,0 +1,23 @@
+.flipbook-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.page {
+  background: linear-gradient(to bottom, #fdfdfd, #f6f6f6);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 575px){
+  .page{
+    margin-top: 0rem;
+    height: 85% !important;
+   width: 72% !important;
+   margin-left: 12%;
+  }
+}
